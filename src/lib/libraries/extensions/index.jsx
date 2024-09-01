@@ -317,5 +317,23 @@ export default [
             />
         ),
         helpLink: 'https://scratch.mit.edu/vernier'
-    }
+    },
+    {
+        name: (
+            <FormattedMessage
+                defaultMessage="CoreEx"
+                description="Core Extension Name"
+                id="gui.extension.coreex.name"
+            />
+        ),
+        extensionId: 'coreExample',
+        description: (
+            <FormattedMessage
+                defaultMessage="The Core Example"
+                description="Description for the 'CoreEx' extension"
+                id="gui.extension.coreex.description"
+            />
+        ),
+        featured: true
+    },
 ];
